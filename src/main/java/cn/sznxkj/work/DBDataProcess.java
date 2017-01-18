@@ -4,9 +4,7 @@ import cn.sznxkj.cache.cache.NCacheType;
 import cn.sznxkj.cache.datas.DataProcess;
 import cn.sznxkj.exposed.MyDao;
 import cn.sznxkj.exposed.SpringContextUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 import java.util.HashMap;
 
