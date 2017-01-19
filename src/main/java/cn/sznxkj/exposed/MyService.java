@@ -15,6 +15,8 @@ public class MyService {
     @Autowired
     private NCacheClient ncc;
 
+    public void newWork(){}
+
     public HashMap<String, Object> cacheData(String key, String ... params) {
         ncc.getByKey(key);
         return null;
